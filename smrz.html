@@ -143,12 +143,84 @@
         <!-- cont__wrap -->
         <section class="cont__wrap radius-5 fr p-30">
 
-            <div class="pb-10 bor bor-0 bor-b-1px fs-16px pl-5 pr-10 fw-600 mb-20">标题</div>
+            <div class="pb-10 bor bor-0 bor-b-1px fs-16px pl-5 pr-10 fw-600 mb-20">实名认证</div>
 
-            <a href="article_list.html">文章列表</a>
-            <a href="article.html">文章页面</a>
-            <a href="smrz.html">实名认证</a>
-            <a href="wdzh.html">我的转化</a>
+            <ul class="form-wrap w-p-100 clearfix mt-40">
+                    <li class="item clearfix mb-20">
+                        <label class="form-tit w-100 pl-5 pr-5"><span class="red">*</span> 真实姓名</label>
+                        <div class="form-cont w-300">
+                            <input type="text" class="form-control" id="name" name="name" placeholder="请输入您的真实姓名"/>
+                        </div>
+                        <div class="form-cont w-300 pl-10">
+                            <span class="success">输入正确</span>
+                        </div>
+                    </li>
+                    <li class="item clearfix mb-20">
+                        <label class="form-tit w-100 pl-5 pr-5"><span class="red">*</span> 证件类型</label>
+                        <div class="form-cont w-300">
+                            <select name="2" id="" class="form-control">
+                                <option value="1">身份证</option>
+                                <option value="2">学生证</option>
+                                <option value="3">军人证</option>
+                                <option value="4">护照</option>
+                            </select>
+                        </div>
+                        <div class="form-cont w-300 pl-10">
+                            
+                        </div>
+                    </li>
+                    <li class="item clearfix mb-20">
+                        <label class="form-tit w-100 pl-5 pr-5"><span class="red">*</span> 证件号</label>
+                        <div class="form-cont w-300">
+                            <input type="text" class="form-control" name="password" placeholder="" datatype="n" />
+                        </div>
+                        <div class="form-cont w-300 pl-10">
+                            <span class="err">证件号不能为空，请重新输入</span>
+                        </div>
+                    </li>
+                    <li class="item clearfix mb-20">
+                        <label class="form-tit w-100 pl-5 pr-5">证件照片</label>
+                        <div class="form-cont w-600">
+                            <input type="button" class="btn btn-aier-green" value="上传照片">
+                            <div class="form-showpic mt-5">
+                                <img src="./static/images/sfz.png" id="image1" height="144" width="231" class="mr-5">
+                                <img src="./static/images/sfz_fm.png" id="image2" height="144" width="231" class="mr-5">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item clearfix mb-20">
+                        <label class="form-tit w-100 pl-5 pr-5"><span class="red">*</span> 银行卡号</label>
+                        <div class="form-cont w-300">
+                            <input type="text" class="form-control" name="password" placeholder="" datatype="n" />
+                        </div>
+                        <div class="form-cont w-300 pl-10">
+                                <span class="tip">积分兑换提现时使用</span>
+                        </div>
+                    </li>
+                    <li class="item clearfix mb-20">
+                        <label class="form-tit w-100 pl-5 pr-5"><span class="red">*</span> 开户行</label>
+                        <div class="form-cont w-300">
+                            <input type="text" class="form-control" name="password" placeholder="" datatype="n" />
+                        </div>
+                        <div class="form-cont w-300 pl-10">
+                        </div>
+                    </li>
+                    <li class="item clearfix mb-20">
+                        <label class="form-tit w-100 pl-5 pr-5">&nbsp;</label>
+                        <div class="form-cont w-750">
+                                <input type="submit" value="保存" class="btn btn-aier btn-aier-big btn-aier-blue"/>
+                        </div> 
+                    </li>
+                    <li class="item clearfix mb-20">
+                        <label class="form-tit w-100 pl-5 pr-5">&nbsp;</label>
+                        <div class="form-cont w-750">
+                            <span class="color-666">
+                                <i class="fa fa-info-circle"></i>
+                                温馨提示：请如实填写以上信息，我们承诺将对您的信息严格保密！
+                            </span>
+                        </div> 
+                    </li>
+                </ul>
 
         </section>
         <!-- cont__wrap -->
